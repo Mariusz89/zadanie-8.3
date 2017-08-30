@@ -10,6 +10,6 @@ var textReplace1 = textReplace.length/2;
 
 console.log (textReplace1);
 //half string has 72 signs
-var textReplace1 = textReplace.slice(0, 72);
+var textReplace1 = textReplace.substr(0, 72);
 
 console.log(textReplace1);
