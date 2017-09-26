@@ -7,9 +7,5 @@ var dinosaurUpperCase = dinosaur.toUpperCase();
 var textReplace = text.replace("Velociraptor", dinosaurUpperCase);
 //divorced content var textReplace on two parts and I kept length half string
 var textReplace1 = textReplace.length/2;
-
-console.log (textReplace1);
 //half string has 72 signs
-var textReplace1 = textReplace.substr(0, 72);
-
-console.log(textReplace1);
+console.log(textReplace.substr(0, textReplace1));
